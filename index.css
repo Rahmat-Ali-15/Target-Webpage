@@ -5,7 +5,6 @@
 	box-sizing: border-box;
 }
 
-
 @media (max-width: 480px){
 	.navbar_content{
 		padding: 10px 10px !important;
@@ -16,6 +15,7 @@
 		grid-template-areas: "logo last  last "
 							"anchor anchor  anchor ";
 		background-image: linear-gradient(rgb(17, 207, 200),rgb(0, 248, 149));
+		
 	}
 	.logo_name{
 		display: flex !important;
@@ -457,6 +457,8 @@
 	padding: 10px 75px;
 	color: #0B093B;
 	width: 100%;
+	/* position: fixed;
+	top: 0px; */
 }
 .logo_name>img{
 	height: 50px;
@@ -632,8 +634,9 @@ cite{
 .second_section_parent_container{
 	height: 270px;
 }
-.second_section_images_container{
+.second_section_parent_container{
 	height: 180px;
+	width: 100%;
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
